@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/button.css">
+    <link rel="stylesheet" href="./css/written.css">
+    <link rel="stylesheet" href="./css/rabbit.css">
+    <link rel="stylesheet" href="./css/top.css">
+    <title>Document</title>
+</head>
+<body>
+  
+  <audio autoplay loop>
+    <source src="./一颗飘 - 祝福你（粤语新年歌）.mp3" type="audio/mpeg">
+    您的浏览器不支持 audio 元素。
+  </audio>
+
+  <div class="bg"><img src="./bg.jpg" alt=""></div>
+  <!-- 按钮 -->
+  <div class="button">
+    <a href="#">
+      点击进入
+      <span class="shift">›</span>
+    </a>
+    <div class="mask"></div>
+  </div>
+  <!-- 烟花 -->
+  <div>
+    <canvas id="canvas"></canvas>
+  </div>
+  <!-- 文字 -->
+  <div class="feliz">新年快乐</div>
+  <div class="ano_novo">
+    <span>202</span>
+    <span class="seis">2</span>
+    <span class="sete">3</span>
+    <div class="balao"></div>
+  </div>
+  <div class="second">
+    <!-- 祝福语 -->
+    <div class="blessings"></div>
+    <div class="rabbits">
+      <!-- 兔子 -->
+      <div class="rabbit"></div>
+      <!-- 云 -->
+      <div class="clouds"></div>
+    </div>
+    <!-- top -->
+    <div class="canvas">
+      <div class="scrolling-area">
+          <div class="rabbit-main rabbit-floor rabbit-jump">
+              <div class="rabbit-body-part rabbit-body"></div>
+              <div class="rabbit-body-part rabbit-tail"></div>
+              <div class="rabbit-body-part rabbit-foot">
+                  <div class="foot-cover"></div>
+              </div>
+              <div class="rabbit-body-part rabbit-head"></div>
+              <div class="rabbit-body-part rabbit-ear  rabbit-ear-1">
+                  <div class="ear-cover"></div>
+              </div>
+              <div class="rabbit-body-part rabbit-ear  rabbit-ear-2">
+                  <div class="ear-cover"></div>
+              </div>
+          </div>
+          <div class="egg-outer egg-1">
+              <div class="egg-line egg-line-1"></div>
+              <div class="egg-line egg-line-2"></div>
+              <div class="egg-line egg-line-3"></div>
+              <div class="egg-line egg-line-4"></div>
+              <div class="egg-line egg-line-5"></div>
+          </div>
+          <div class="egg-outer egg-2">
+              <div class="egg-line egg-line-1"></div>
+              <div class="egg-line egg-line-2"></div>
+              <div class="egg-line egg-line-3"></div>
+              <div class="egg-line egg-line-4"></div>
+              <div class="egg-line egg-line-5"></div>
+          </div>
+          <div class="egg-outer egg-3">
+              <div class="egg-line egg-line-1"></div>
+              <div class="egg-line egg-line-2"></div>
+              <div class="egg-line egg-line-3"></div>
+              <div class="egg-line egg-line-4"></div>
+              <div class="egg-line egg-line-5"></div>
+          </div>
+          <div class="egg-outer egg-4">
+              <div class="egg-line egg-line-1"></div>
+              <div class="egg-line egg-line-2"></div>
+              <div class="egg-line egg-line-3"></div>
+              <div class="egg-line egg-line-4"></div>
+              <div class="egg-line egg-line-5"></div>
+          </div>
+      </div>
+      <div class="ground">
+      </div>
+  </div>
+  </div>
+  
+<script src="./js/index.js"></script>
+<script src="./js/fireworks.js"></script>
+<script src="./js/blessing.js"></script>
+</body>
+</html>

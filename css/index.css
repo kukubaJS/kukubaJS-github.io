@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:700|Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Varela+Round');
+@import url('https://fonts.googlefonts.cn/css?family=Pacifico');
+
+*, *:after, *:before{
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
+  -webkit-transition: all 100ms ease-in;
+  transition: all 100ms ease-in;
+}
+html{
+  font-size: 1rem;
+  background-color: #C53435;
+}
+
+body {
+	align-items: center;
+	display: flex;
+	height: 100vh;
+	justify-content: center;
+	margin: 0;
+	padding: 0;
+}
+
+.bg {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  overflow: hidden;
+  opacity: 1;
+  transition: opacity 1s;
+}
+
+.bg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.second {
+  display: none;
+  opacity: 1;
+  transition: opacity 1s;
+}
+
+.blessings {
+  position: absolute;
+  top: 30%;
+  left: 0;
+  padding: 0 50px;
+  font-family: 'Pacifico',cursive;
+  font-size: 30px;
+  color: #FBD775;
+}
+
+#google_translate_element {
+  display: none;
+}
+
+#canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  opacity: 0;
+  transition: opacity 1s;
+}
