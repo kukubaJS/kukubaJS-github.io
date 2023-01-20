@@ -23,6 +23,13 @@ body {
 	padding: 0;
 }
 
+audio {
+  position: absolute;
+  z-index: 1;
+  height: 1.25rem;
+  bottom: 0;
+}
+
 .bg {
   position: absolute;
   top: 0;
