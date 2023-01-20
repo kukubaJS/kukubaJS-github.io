@@ -1,6 +1,7 @@
-const body = document.body;
-const btn = document.querySelectorAll('.button')[0];
-const second = document.querySelector('.second')
+window.onload = function () {
+  const body = document.body;
+  const btn = document.querySelectorAll('.button')[0];
+  const second = document.querySelector('.second')
 
 btn.addEventListener('mouseenter', () => {
 	body.classList.add('hover');
@@ -42,3 +43,4 @@ btn.addEventListener('click',function(){
     
   },4000)
 })
+};
