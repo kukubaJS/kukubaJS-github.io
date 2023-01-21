@@ -37,6 +37,7 @@ audio {
   overflow: hidden;
   opacity: 1;
   transition: opacity 1s;
+  pointer-events:none;
 }
 
 .bg img {
@@ -59,6 +60,7 @@ audio {
   font-family: 'Pacifico',cursive;
   font-size: 1.575rem;
   color: #FBD775;
+  pointer-events:none;
 }
 
 #google_translate_element {

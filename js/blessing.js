@@ -41,7 +41,7 @@ function init() {
    */
   const blessings = document.querySelector('.blessings')
 
-  var dly = (typeof delay === 'number' && delay > 0) ? delay : ((direction === 'v') ?  2000 : 300);
+  var dly = (typeof delay === 'number' && delay > 0) ? delay : ((direction === 'v') ?  6000 : 300);
   /* If obj is a string then convert to character array */
   var newObj = [];
   /* Create element */

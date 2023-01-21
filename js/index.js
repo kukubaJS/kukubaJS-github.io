@@ -34,7 +34,7 @@ btn.addEventListener('click',function(){
           canva.style.opacity = 1
         },10000)
       },3000)
-    },25000)
+    },20000)
   },3000)
   setTimeout(()=>{
     
